@@ -22,17 +22,17 @@ const Topbar = () => {
             <ul className="contact-list">
               <li>
                 <i className="far fa-envelope"></i>
-                <Link href="mailto:info@example.com">info@example.com</Link>
+                <Link href="mailto:info@example.com">info@optimalservicesllc.net</Link>
               </li>
               <li>
                 <i className="fa-regular fa-phone"></i>
-                <Link href="tel:+20866660112">+208-6666-0112</Link>
+                <Link href="tel:+20866660112">+1 (207) 881-3583</Link>
               </li>
             </ul>
-            <p>
+            {/* <p>
               Hostech Flash Discount: Starting at <b>$3.49/mo</b> for a Limited
               time
-            </p>
+            </p> */}
             <ul className="list">
               <li>
                 <i className="fa-light fa-comments"></i>

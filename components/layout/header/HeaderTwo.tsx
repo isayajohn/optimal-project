@@ -106,11 +106,11 @@ const HeaderTwo = () => {
                       <nav id="mobile-menu">
                         <ul>
                           <li className="has-dropdown active menu-thumb">
-                            <Link href="/">
+                            <Link href="index-2">
                               Home
-                              <i className="fas fa-angle-down"></i>
+                              <i></i>
                             </Link>
-                            <ul className="submenu has-homemenu has-menu-home">
+                            {/* <ul className="submenu has-homemenu has-menu-home">
                               <li className="border-none">
                                 <div className="homemenu-items">
                                   <div className="homemenu-list">
@@ -165,7 +165,7 @@ const HeaderTwo = () => {
                                   </div>
                                 </div>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">

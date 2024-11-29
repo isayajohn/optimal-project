@@ -1,34 +1,34 @@
-import Header from "@/components/layout/header/Header";
-import Banner from "@/components/layout/banner/Banner";
-import DomainSection from "@/components/containers/home/DomainSection";
-import HostingHome from "@/components/containers/home/HostingHome";
-import PricingHome from "@/components/containers/home/PricingHome";
-import HomeCta from "@/components/containers/home/HomeCta";
-import HomeBrand from "@/components/containers/home/HomeBrand";
-import HomeHostingTwo from "@/components/containers/home/HomeHostingTwo";
-import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
-import FaqSection from "@/components/containers/faq/FaqSection";
-import HomeNews from "@/components/containers/home/HomeNews";
-import Brand from "@/components/containers/support/Brand";
-import Footer from "@/components/layout/footer/Footer";
+import HeaderTwo from "@/components/layout/header/HeaderTwo";
+import BannerTwo from "@/components/layout/banner/BannerTwo";
+import DomainTwo from "@/components/containers/home-two/DomainTwo";
+import HomeBrandTwo from "@/components/containers/home-two/HomeTwoBrand";
+import HomeTwoHosting from "@/components/containers/home-two/HomeTwoHosting";
+import HomeTwoPricing from "@/components/containers/home-two/HomeTwoPricing";
+import HomeTwoService from "@/components/containers/home-two/HomeTwoService";
+import HomeTwoLocation from "@/components/containers/home-two/HomeTwoLocation";
+import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
+import HomeTwoChoose from "@/components/containers/home-two/HomeTwoChoose";
+import HomeTwoFeature from "@/components/containers/home-two/HomeTwoFeature";
+import Testimonial from "@/components/containers/support/Testimonial";
+import FooterTwo from "@/components/layout/footer/FooterTwo";
 import CustomCursor from "@/components/layout/CustomCursor";
 
 const page = () => {
   return (
     <>
-      <Header />
-      <Banner />
-      <DomainSection />
-      <HostingHome />
-      <PricingHome />
-      <HomeCta />
-      <HomeBrand />
-      <HomeHostingTwo />
-      <HomeTestimonial />
-      <FaqSection />
-      <HomeNews />
-      <Brand />
-      <Footer />
+      <HeaderTwo />
+      <BannerTwo />
+      <DomainTwo />
+      <HomeBrandTwo />
+      <HomeTwoHosting />
+      <HomeTwoPricing />
+      <HomeTwoService />
+      <HomeTwoLocation />
+      <HomeTwoCta />
+      <HomeTwoChoose />
+      <HomeTwoFeature />
+      <Testimonial />
+      <FooterTwo />
       <CustomCursor />
     </>
   );
