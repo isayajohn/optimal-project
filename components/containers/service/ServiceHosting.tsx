@@ -13,10 +13,10 @@ const ServiceHosting = () => {
       <div className="container">
         <div className="section-title text-center">
           <span data-aos="fade-up" data-aos-duration="800">
-            Best hosting
+            Best Services
           </span>
           <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            Discover Most Powerful Web <br /> Hosting Features
+            Explore Our Comprehensive Services <br /> Hosting Features
           </h2>
         </div>
         <div className="row">
