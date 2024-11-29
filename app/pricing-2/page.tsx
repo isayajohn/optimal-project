@@ -11,7 +11,7 @@ const page = () => {
     <>
       <Header />
       <BannerCommon title="Pricing Package" />
-      <PricingChoose />
+      {/* <PricingChoose /> */}
       <PricingHome />
       <FaqSection />
       <Footer />
