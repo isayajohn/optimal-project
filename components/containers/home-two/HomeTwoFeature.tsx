@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import one from "@/public/img/feature.jpg";
+import one from "@/public/img/feature.webp";
 
 const HomeTwoFeature = () => {
   return (

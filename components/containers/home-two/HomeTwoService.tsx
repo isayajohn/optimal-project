@@ -2,7 +2,7 @@ import Image from "next/image";
 import one from "@/public/img/hosting/icon-11.png";
 import two from "@/public/img/hosting/icon-12.png";
 import three from "@/public/img/hosting/icon-13.png";
-import four from "@/public/img/hosting/secure-data.png";
+import four from "@/public/img/hosting/secure-data.webp";
 
 const HomeTwoService = () => {
   return (
@@ -25,7 +25,7 @@ const HomeTwoService = () => {
                     data-aos-duration="800"
                     data-aos-delay="300"
                   >
-                    Hostech provide secure & web application hosting
+                    Optimal Services llc provide secure & web application hosting
                   </h2>
                 </div>
                 <div
@@ -38,10 +38,10 @@ const HomeTwoService = () => {
                     <Image src={one} alt="img" priority />
                   </div>
                   <div className="content">
-                    <h4>Turbo Hosting</h4>
+                    <h4>Hosting</h4>
                     <p>
-                      Cursus libero sit amet ultrices. Nullam sit amet ornare
-                      neque duis vitae congue ante, nec tempus quam. Donec non.
+                    Hosting refers to the service that allows individuals or organizations to store and manage their website, app, 
+                    or data on a server, making it accessible over the internet.
                     </p>
                   </div>
                 </div>
@@ -57,8 +57,8 @@ const HomeTwoService = () => {
                   <div className="content">
                     <h4>Share Hosting</h4>
                     <p>
-                      Cursus libero sit amet ultrices. Nullam sit amet ornare
-                      neque duis vitae congue ante, nec tempus quam. Donec non.
+                    Shared Hosting is a type of web hosting where multiple websites are hosted on the same server,
+                     sharing its resources such as CPU, RAM, and storage.
                     </p>
                   </div>
                 </div>
@@ -74,8 +74,10 @@ const HomeTwoService = () => {
                   <div className="content">
                     <h4>Dedicated Hosting</h4>
                     <p>
-                      Cursus libero sit amet ultrices. Nullam sit amet ornare
-                      neque duis vitae congue ante, nec tempus quam. Donec non.
+                    Dedicated Hosting is a type of web hosting where a client rents an entire server 
+                    exclusively for their website or application. Unlike shared hosting, where multiple sites share the same server,
+                     with dedicated hosting,
+                     you have full control over the server's resources, including CPU, RAM, storage, and bandwidth.
                     </p>
                   </div>
                 </div>
