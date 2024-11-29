@@ -56,7 +56,7 @@ const FaqSection = () => {
                           aria-expanded="true"
                           aria-controls="faq1"
                         >
-                          How to Install WordPress theme on cPanel?
+                          How can Web & Mobile App Development services benefit my business?
                         </button>
                       </h5>
                       <div
@@ -67,10 +67,9 @@ const FaqSection = () => {
                         data-bs-parent="#accordion"
                       >
                         <div className="accordion-body">
-                          Nullam faucibus eleifend mi eu varius. Integer vel
-                          tincidunt massa, quis semper odio. Mauris et mollis
-                          quam. Nullam fringilla erat id ante commodo sodales.
-                          In maximus ultrices euismod. Vivamus porta justo ex.
+                          Our services include API integration, e-commerce solutions,
+                          and mobile-responsive designs to improve functionality and user experience,
+                          ultimately enhancing your business’s online presence.
                         </div>
                       </div>
                     </div>

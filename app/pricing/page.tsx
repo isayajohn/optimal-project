@@ -10,8 +10,8 @@ const page = () => {
   return (
     <>
       <Header />
-      <BannerCommon title="Pricing" />
-      <PricingChoose />
+      {/* <BannerCommon title="Pricing" /> */}
+      {/* <PricingChoose /> */}
       <HomeThreePricing />
       <FaqSection />
       <Footer />

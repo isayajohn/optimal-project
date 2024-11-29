@@ -16,8 +16,13 @@ const ServiceHosting = () => {
             Best Services
           </span>
           <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            Explore Our Comprehensive Services <br /> Hosting Features
+            Explore Our Comprehensive Services 
           </h2>
+          <p>
+            At Optimal Services LLC, we specialize in delivering tailored IT
+            <br />solutions that empower businesses to thrive in a digital landscape.
+            <br/>Our services range from web and mobile application development to cybersecurity audits.
+          </p>
         </div>
         <div className="row">
           <div
@@ -63,11 +68,10 @@ const ServiceHosting = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="dedicated-hosting">Email Hosting</Link>
+                  <Link href="dedicated-hosting">Web Development</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  Our web development services include creating responsive websites that enhance user experience and drive engagement, ensuring your business stands out online.
                 </p>
               </div>
             </div>
@@ -89,11 +93,11 @@ const ServiceHosting = () => {
               </div>
               <div className="content">
                 <h3>
-                  <Link href="dedicated-hosting">Ecommerce Hosting</Link>
+                  <Link href="dedicated-hosting">Cybersecurity</Link>
                 </h3>
                 <p>
-                  Collaboratively formulate principle capital. Progressively
-                  evolve user revolutionary hosting services.
+                  We offer robust cybersecurity solutions to protect your business from threats,
+                  including ongoing support to safeguard your information systems.
                 </p>
               </div>
             </div>

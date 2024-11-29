@@ -411,7 +411,7 @@ const HeaderTwo = () => {
                               </li>
                             </ul>
                           </li>
-                          <li className="has-dropdown menu-thumb">
+                          {/* <li className="has-dropdown menu-thumb">
                             <Link href="/">
                               Hosting
                               <i className="fas fa-angle-down"></i>
@@ -570,7 +570,7 @@ const HeaderTwo = () => {
                                 <Link href="cloud-hosting">Cloud Hosting</Link>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link href="domain">Domain</Link>
                           </li> */}

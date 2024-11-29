@@ -12,8 +12,8 @@ const page = () => {
     <>
       <Header />
       <BannerCommon title="Services" />
-      <HomeFourBrand />
-      <HomeFourChoose />
+      {/* <HomeFourBrand /> */}
+      {/* <HomeFourChoose /> */}
       <ServiceHosting />
       <FaqSection />
       <Footer />
