@@ -38,27 +38,13 @@ const BannerTwo = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                Your Perfect Domain Hosting <span>Solution</span>
+                Transform Your Business with Optimal <span>Solutions</span>
               </h1>
               <div className="hero-list-items">
                 <ul className="hero-list">
                   <li>
                     <i className="fa-solid fa-check"></i>
-                    Lifetime Free Wildcard SLL certificate
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>
-                    24/7 Chat, call & Ticket Support
-                  </li>
-                </ul>
-                <ul className="hero-list">
-                  <li>
-                    <i className="fa-solid fa-check"></i>
-                    Free Domain 2 Years Billing
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>
-                    30-day money back guarantee
+                    At Optimal Services LLC, we specialize in delivering cutting-edge IT solutions tailored to your needs. From web development to cybersecurity, our team is dedicated to enhancing your business performance and security.
                   </li>
                 </ul>
               </div>
@@ -72,7 +58,7 @@ const BannerTwo = () => {
                 >
                   Get Started <i className="fas fa-long-arrow-alt-right"></i>
                 </Link>
-                <Link
+                {/* <Link
                   href="/"
                   className="theme-btn border-white "
                   data-aos="fade-up"
@@ -80,7 +66,7 @@ const BannerTwo = () => {
                   data-aos-delay="700"
                 >
                   Start Free <i className="fas fa-long-arrow-alt-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
