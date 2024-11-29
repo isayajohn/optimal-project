@@ -188,11 +188,11 @@ const HeaderTwo = () => {
                             </ul>
                           </li>
                           <li className="has-dropdown menu-thumb">
-                            <Link href="news">
-                              Pages
-                              <i className="fas fa-angle-down"></i>
+                            <Link href="service">
+                              Services
+                              {/* <i className="fas fa-angle-down"></i> */}
                             </Link>
-                            <ul className="submenu has-homemenu">
+                            {/* <ul className="submenu has-homemenu">
                               <li className="border-none">
                                 <div className="homemenu-items">
                                   <div className="row">
@@ -371,7 +371,7 @@ const HeaderTwo = () => {
                                   </div>
                                 </div>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
@@ -571,8 +571,11 @@ const HeaderTwo = () => {
                               </li>
                             </ul>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="domain">Domain</Link>
+                          </li> */}
+                           <li>
+                            <Link href="pricing-2">Pricing</Link>
                           </li>
                           <li>
                             <Link href="news">
