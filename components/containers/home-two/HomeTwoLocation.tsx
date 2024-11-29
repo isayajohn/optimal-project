@@ -22,16 +22,9 @@ const HomeTwoLocation = () => {
             <div className="col-lg-12">
               <div className="data-center-image">
                 <Image src={one} alt="img" priority />
-                <span className="text-box box-1">Canada</span>
+                <span className="text-box box-1">Washington State</span>
                 <span className="text-box box-2">United States</span>
-                <span className="text-box box-3">Brazil</span>
-                <span className="text-box box-4">Finland</span>
-                <span className="text-box box-5">Ukraine</span>
-                <span className="text-box box-6">Nigeria</span>
-                <span className="text-box box-7">South Africa</span>
-                <span className="text-box box-8">India</span>
-                <span className="text-box box-9">China</span>
-                <span className="text-box box-10">Australia</span>
+                <span className="text-box box-2">Africa</span>
               </div>
             </div>
           </div>
