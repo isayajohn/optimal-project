@@ -28,7 +28,7 @@ const HomeTwoCta = () => {
                   data-aos-duration="800"
                   data-aos-delay="300"
                 >
-                  24/7 Expert Hosting Support <br /> Our Customers Love
+                  24/7 Expert Hosting Support <br />
                 </h2>
               </div>
               <div className="cta-contact-button mt-4 mt-md-0">
@@ -47,7 +47,7 @@ const HomeTwoCta = () => {
                   data-aos-delay="500"
                 >
                   <i className="fa-light fa-envelope"></i>
-                  <Link href="mailto:info@hostceh.com">info@hostceh.com</Link>
+                  <Link href="mailto:info@hostceh.com">info@optimalservicesllc.net</Link>
                 </h4>
               </div>
             </div>

@@ -9,7 +9,7 @@ const DomainTwo = () => {
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            Find Your Perfect Domain Name
+            Find Your Perfect Service
           </h3>
           <form
             action="#"
@@ -19,7 +19,7 @@ const DomainTwo = () => {
             data-aos-delay="500"
           >
             <div className="domain-input">
-              <input type="text" placeholder="domain.com" />
+              <input type="text" placeholder="content" />
               <button className="theme-btn bg-color-2" type="submit">
                 Search Now
               </button>

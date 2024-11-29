@@ -17,10 +17,10 @@ const HomeTwoChoose = () => {
             Why Choose Us
           </span>
           <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            Why Choose Hostech
+            Why Choose optimal solution llc
           </h2>
         </div>
-        <div className="choose-us-top-inner">
+        {/* <div className="choose-us-top-inner">
           <ul>
             <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               Step One
@@ -35,7 +35,7 @@ const HomeTwoChoose = () => {
               Step Four
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="row">
           <div
             className="col-xl-3 col-lg-4 col-md-6 "
