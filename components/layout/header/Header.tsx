@@ -25,7 +25,7 @@ import seventeen from "@/public/img/menu-icon/wordpress-host.png";
 import eightteen from "@/public/img/menu-icon/cloud-host.png";
 import OffCanvas from "./OffCanvas";
 
-const Header = () => {
+const HeaderTwo = () => {
   // search toggle
   const [searchToggle, setSearchToggle] = useState(false);
 
@@ -85,17 +85,17 @@ const Header = () => {
         <Topbar />
         <div
           id="header-sticky"
-          className={(scrolled ? " sticky animated" : " ") + " header-1"}
+          className={(scrolled ? " sticky animated" : " ") + " header-2"}
         >
           <div className="container">
             <div className="mega-menu-wrapper">
               <div className="header-main">
                 <div className="header-left">
                   <div className="logo">
-                    <Link href="index-2" className="header-logo">
+                    <Link href="/" className="header-logo">
                       <Image src={logo} alt="logo-img" priority />
                     </Link>
-                    <Link href="index-2" className="header-logo-2">
+                    <Link href="/" className="header-logo-2">
                       <Image src={logoBlack} alt="logo-img" priority />
                     </Link>
                   </div>
@@ -105,11 +105,67 @@ const Header = () => {
                     <div className="main-menu d-none d-xl-block">
                       <nav id="mobile-menu">
                         <ul>
-                          <li>
+                          <li className="has-dropdown active menu-thumb">
                             <Link href="index-2">
                               Home
-                              <i ></i>
+                              <i></i>
                             </Link>
+                            {/* <ul className="submenu has-homemenu has-menu-home">
+                              <li className="border-none">
+                                <div className="homemenu-items">
+                                  <div className="homemenu-list">
+                                    <div className="icon">
+                                      <Image src={one} alt="img" priority />
+                                    </div>
+                                    <div className="content">
+                                      <h6>
+                                        <Link href="/">Web Hosting</Link>
+                                      </h6>
+                                      <p>Powerful bare metal server</p>
+                                    </div>
+                                  </div>
+                                  <div className="homemenu-list">
+                                    <div className="icon">
+                                      <Image src={two} alt="img" priority />
+                                    </div>
+                                    <div className="content">
+                                      <h6>
+                                        <Link href="index-2">
+                                          Hosting Services
+                                        </Link>
+                                      </h6>
+                                      <p>Flexible virtual machine</p>
+                                    </div>
+                                  </div>
+                                  <div className="homemenu-list">
+                                    <div className="icon">
+                                      <Image src={three} alt="img" priority />
+                                    </div>
+                                    <div className="content">
+                                      <h6>
+                                        <Link href="index-3">
+                                          Hosting Solutions
+                                        </Link>
+                                      </h6>
+                                      <p>Powerful Hosting solutions</p>
+                                    </div>
+                                  </div>
+                                  <div className="homemenu-list mb-0">
+                                    <div className="icon">
+                                      <Image src={four} alt="img" priority />
+                                    </div>
+                                    <div className="content">
+                                      <h6>
+                                        <Link href="index-4">
+                                          Hosting Agency
+                                        </Link>
+                                      </h6>
+                                      <p>Big hosting agency</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul> */}
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
@@ -117,26 +173,26 @@ const Header = () => {
                               <i className="fas fa-angle-down"></i>
                             </Link>
                             <ul className="submenu">
-                              <li>
+                              {/* <li>
                                 <Link href="/">Web Hosting</Link>
-                              </li>
+                              </li> */}
                               <li>
                                 <Link href="index-2">Hosting Services</Link>
                               </li>
-                              <li>
+                              {/* <li>
                                 <Link href="index-3">Hosting Solutions</Link>
                               </li>
                               <li>
                                 <Link href="index-4">Hosting Agency</Link>
-                              </li>
+                              </li> */}
                             </ul>
                           </li>
                           <li className="has-dropdown menu-thumb">
-                            <Link href="news">
-                              Pages
-                              <i className="fas fa-angle-down"></i>
+                            <Link href="service">
+                              Services
+                              {/* <i className="fas fa-angle-down"></i> */}
                             </Link>
-                            <ul className="submenu has-homemenu">
+                            {/* <ul className="submenu has-homemenu">
                               <li className="border-none">
                                 <div className="homemenu-items">
                                   <div className="row">
@@ -315,7 +371,7 @@ const Header = () => {
                                   </div>
                                 </div>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li className="has-dropdown active d-xl-none">
                             <Link href="team" className="border-none">
@@ -515,8 +571,11 @@ const Header = () => {
                               </li>
                             </ul>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="domain">Domain</Link>
+                          </li> */}
+                           <li>
+                            <Link href="pricing-2">Pricing</Link>
                           </li>
                           <li>
                             <Link href="news">
@@ -617,4 +676,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderTwo;

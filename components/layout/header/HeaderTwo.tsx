@@ -173,18 +173,18 @@ const HeaderTwo = () => {
                               <i className="fas fa-angle-down"></i>
                             </Link>
                             <ul className="submenu">
-                              <li>
+                              {/* <li>
                                 <Link href="/">Web Hosting</Link>
-                              </li>
+                              </li> */}
                               <li>
                                 <Link href="index-2">Hosting Services</Link>
                               </li>
-                              <li>
+                              {/* <li>
                                 <Link href="index-3">Hosting Solutions</Link>
                               </li>
                               <li>
                                 <Link href="index-4">Hosting Agency</Link>
-                              </li>
+                              </li> */}
                             </ul>
                           </li>
                           <li className="has-dropdown menu-thumb">
