@@ -23,17 +23,17 @@ const DomainTwo = () => {
               <button className="theme-btn bg-color-2" type="submit">
                 Search Now
               </button>
-              <div className="select-area">
+              {/* <div className="select-area">
                 <select name="cate" className="category">
                   <option value="1">.com</option>
                   <option value="1">.net</option>
                   <option value="1">.info</option>
                   <option value="1">.store</option>
                 </select>
-              </div>
+              </div> */}
             </div>
           </form>
-          <ul className="domain-list">
+          {/* <ul className="domain-list">
             <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               <span>.com</span>
               $9.95
@@ -54,7 +54,7 @@ const DomainTwo = () => {
               <span>.ORG</span>
               $11.95
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>
