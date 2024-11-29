@@ -578,11 +578,11 @@ const HeaderTwo = () => {
                             <Link href="pricing-2">Pricing</Link>
                           </li>
                           <li>
-                            <Link href="news">
-                              News
-                              <i className="fas fa-angle-down"></i>
+                            <Link href="news-grid">
+                            Portfolio
+                              <i></i>
                             </Link>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <Link href="news-grid">News Grid</Link>
                               </li>
@@ -592,14 +592,14 @@ const HeaderTwo = () => {
                               <li>
                                 <Link href="news-details">News Details</Link>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li>
-                            <Link href="contact">
-                              Help Center
-                              <i className="fas fa-angle-down"></i>
+                          <Link href="contact">
+                            Contact Us
+                              <i></i>
                             </Link>
-                            <ul className="submenu">
+                            {/* <ul className="submenu">
                               <li>
                                 <Link href="faq">Faq</Link>
                               </li>
@@ -612,7 +612,7 @@ const HeaderTwo = () => {
                               <li>
                                 <Link href="contact">Contact Us</Link>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                         </ul>
                       </nav>
