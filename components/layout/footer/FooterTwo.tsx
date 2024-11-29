@@ -193,7 +193,7 @@ const FooterTwo = () => {
           <div className="footer-wrapper d-flex align-items-center justify-content-between">
             <p>
               &copy; All Copyright {currentYear} by{" "}
-              <Link href="/">Hostech</Link>
+              <Link href="www.afrigotech.com">Afrigotech</Link>
             </p>
             <ul className="footer-menu">
               <li>

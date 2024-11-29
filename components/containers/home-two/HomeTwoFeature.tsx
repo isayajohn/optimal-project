@@ -42,10 +42,8 @@ const HomeTwoFeature = () => {
                   data-aos-duration="800"
                   data-aos-delay="500"
                 >
-                  Till, having your own dedicated physical computer at a center
-                  does improve your security because you have a reduced risk of
-                  experiencing security breaches from other sites that you would
-                  normally share hardware with. However,
+                  Our services prioritize robust security measures to ensure data protection,
+                   secure access, and compliance with industry standards.
                 </p>
                 <div className="feature-list">
                   <ul
