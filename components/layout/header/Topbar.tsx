@@ -29,8 +29,13 @@ const Topbar = () => {
                 <Link href="tel:+20866660112">+1 (207) 881-3583</Link>
               </li>
             </ul>
+<<<<<<< HEAD
             {/* <p>
               Hostech Flash Discount: Starting at <b>$3.49/mo</b> for a Limited
+=======
+            <p>
+              Optimal Solution LLC: Starting at <b>$4.49/mo</b> for a Limited
+>>>>>>> 2fb53127144db7a4b0a232624c7fd9a6424474d0
               time
             </p> */}
             <ul className="list">
