@@ -30,7 +30,7 @@ const Topbar = () => {
               </li>
             </ul>
             <p>
-              Hostech Flash Discount: Starting at <b>$3.49/mo</b> for a Limited
+              Optimal Solution LLC: Starting at <b>$4.49/mo</b> for a Limited
               time
             </p>
             <ul className="list">
