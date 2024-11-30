@@ -75,7 +75,7 @@ const HomeTwoService = () => {
                     <h4>Dedicated Hosting</h4>
                     <p>
                       Cursus libero sit amet ultrices. Nullam sit amet ornare
-                      neque duis vitae congue ante, nec tempus quam. Donec non.
+                      nequee ante, nec tempus quam. Donec non.
                     </p>
                   </div>
                 </div>
