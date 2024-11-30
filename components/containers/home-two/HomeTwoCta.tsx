@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import one from "@/public/img/cta-man-2.png";
+import one from "@/public/img/cta-man-2.webp";
 
 const HomeTwoCta = () => {
   return (

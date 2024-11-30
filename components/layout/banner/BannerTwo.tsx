@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import one from "@/public/img/hero/hero-2-dot-right.png";
-import two from "@/public/img/hero/hero-hosting.png";
+import two from "@/public/img/hero/hero-hosting.webp";
 
 const BannerTwo = () => {
   return (

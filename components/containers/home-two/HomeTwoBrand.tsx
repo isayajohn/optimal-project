@@ -13,7 +13,7 @@ const HomeBrandTwo = () => {
   return (
     <div className="brand-section pb-0">
       <div className="container">
-        <div className="swiper brand-slider bor-bottom pb-100 pt-0">
+        {/* <div className="swiper brand-slider bor-bottom pb-100 pt-0">
           <Swiper
             slidesPerGroup={1}
             freeMode={true}
@@ -134,7 +134,7 @@ const HomeBrandTwo = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-        </div>
+        </div> */}
       </div>
     </div>
   );
