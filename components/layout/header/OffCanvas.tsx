@@ -66,9 +66,9 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                 </div>
               </div>
               <p className="text d-none d-xl-block">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+              At Optimal Services LLC, we specialize in delivering cutting-edge IT solutions
+               tailored to your needs. From web development to cybersecurity,
+               our team is dedicated to enhancing your business performance and security.
               </p>
               <div className="mobile-menu fix mb-3">
                 <nav className="mean-nav d-block d-xl-none">
@@ -88,10 +88,10 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                           <Link href="index-2">Hosting Services</Link>
                         </li>
                         <li>
-                          <Link href="index-3">Hosting Solutions</Link>
+                          <Link href="index-2">Hosting Solutions</Link>
                         </li>
                         <li>
-                          <Link href="index-4">Hosting Agency</Link>
+                          <Link href="index-2">Hosting Agency</Link>
                         </li>
                       </ul>
                     </li>
@@ -235,7 +235,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                     <div className="offcanvas__contact-text">
                       <Link href="mailto:info@example.com">
                         <span className="mailto:info@example.com">
-                          info@example.com
+                        info@optimalservicesllc.net
                         </span>
                       </Link>
                     </div>
@@ -255,7 +255,7 @@ const OffCanvas = ({ toggleOffCanvas, handleToggleOffCanvas }: any) => {
                       <i className="far fa-phone"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link href="tel:+11002345909">+11002345909</Link>
+                      <Link href="tel:+11002345909">+1 (207) 881-3583</Link>
                     </div>
                   </li>
                 </ul>
