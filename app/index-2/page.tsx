@@ -21,13 +21,13 @@ const page = () => {
       <DomainTwo />
       <HomeBrandTwo />
       <HomeTwoHosting />
-      <HomeTwoPricing />
+      {/* <HomeTwoPricing /> */}
       <HomeTwoService />
       <HomeTwoLocation />
       <HomeTwoCta />
       <HomeTwoChoose />
       <HomeTwoFeature />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <FooterTwo />
       <CustomCursor />
     </>

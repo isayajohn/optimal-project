@@ -594,6 +594,12 @@ const HeaderTwo = () => {
                               </li>
                             </ul> */}
                           </li>
+                           <li>
+                             <Link href="about">
+                            About
+                              <i></i>
+                            </Link>
+                          </li>
                           <li>
                           <Link href="contact">
                             Contact Us
